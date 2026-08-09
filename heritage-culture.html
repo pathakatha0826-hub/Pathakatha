@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PathaKatha Travel Blog</title>
+<meta name="description" content="Read PathaKatha travel stories, destination guides, travel tips, Indian heritage, nature and coastal journeys.">
+<meta name="keywords" content="travel blog, PathaKatha, India travel, travel stories, Indian destinations, travel guide, tourism, heritage, mountains, beaches, culture">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/yatrakatha-travel-blog.html">
+<link rel="icon" type="image/jpeg" href="Icon.jpeg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="PathaKatha Home">
+      <img src="Icon.jpeg" alt="PathaKatha travel blog logo">
+      <span class="brand-name">Patha<span>Katha</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" onclick="toggleMenu()">☰</button>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="navLinks">
+<li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu-blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container"><h1>Travel Blog</h1><p>Destination stories, travel guides, culture, nature and inspiration for your next journey.</p></div></section>
+<section class="section"><div class="container">
+  <div class="blog-grid">
+    <article class="blog-card"><div class="blog-thumb">Himalayan Roads</div><div class="blog-body"><h3>Planning a mountain escape</h3><p>Things to consider before heading towards India's beautiful mountain destinations.</p><a class="read-link" href="blog-post.html">Read more →</a></div></article>
+   </div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">PathaKatha</div>
+        <p class="footer-text">Stories from roads, rivers, mountains, cities and coastlines — inspiring you to discover places with curiosity and heart.</p>
+      </div>
+      <div>
+        <div class="footer-title">Our Mission</div>
+        <p class="footer-text">To share useful, authentic and inspiring travel stories that help readers plan meaningful journeys and experience India and the world beyond the ordinary.</p>
+      </div>
+      <div>
+        <div class="footer-title">Let's Connect</div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+          <a href="#" aria-label="WhatsApp Channel">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 PathaKatha. All rights reserved.</div>
+  </div>
+</footer>
+<script>
+function toggleMenu(){
+  const nav=document.getElementById('navLinks');
+  const btn=document.querySelector('.menu-toggle');
+  nav.classList.toggle('show');
+  btn.setAttribute('aria-expanded', nav.classList.contains('show'));
+}
+</script>
+</body>
+</html>

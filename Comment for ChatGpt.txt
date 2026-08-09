@@ -1,0 +1,12 @@
+Make a html page design using css for my blogging home page with the following criteria:
+
+1. It must be a background with first image and a dp with second image
+2. It must has Heading YatraKath
+3. It must have four menus i.e. About, Blog, Contact, Privacy Policy Page
+4. "Every Journey has a story" highlight the line in background.
+5. It must has a footer section with  Our Mission, Lets Connect (Facebook, Instagram, Twitter, Printerest, WhatsApp Channel)
+6. The Current Blog should show in home page in right Corner
+7. It must mobile responsive
+8. It should SEO and keywords supported
+
+Now make all pages one by one and it should one css file and different html Pages..Now make it attractive

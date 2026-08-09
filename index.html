@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PathaKatha | Every Journey has a Story</title>
+<meta name="description" content="PathaKatha travel blog — inspiring travel stories, India travel guides, culture, heritage, mountains, beaches and nature.">
+<meta name="keywords" content="travel blog, PathaKatha, India travel, travel stories, Indian destinations, travel guide, tourism, heritage, mountains, beaches, culture">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/PathaKatha-|-every-journey-has-a-story.html">
+<link rel="icon" type="image/jpeg" href="Icon.jpeg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="PathaKatha Home">
+      <img src="Icon.jpeg" alt="PathaKatha travel blog logo">
+      <span class="brand-name">Patha<span>Katha</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" onclick="toggleMenu()">☰</button>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu-blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-label="PathaKatha travel stories">
+  <div class="container">
+    <div class="hero-content">
+      <div class="eyebrow">Travel • Culture • Discovery</div>
+      <h1>PathaKatha</h1>
+      <div class="hero-subtitle">“Every Journey has a Story”</div>
+      <p class="hero-copy">Explore destinations through stories of heritage, nature, people, food and unforgettable journeys. From the Himalayas to the coast, every road has something to tell.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="blog.html">Explore Stories</a>
+        <a class="btn btn-light" href="about.html">Our Story</a>
+      </div>
+    </div>
+  </div>
+  <aside class="current-blog" aria-label="Current Blog">
+    <div class="current-label">Current Blog</div>
+    <h3>Beyond the Destination: Why the Journey Matters</h3>
+    <p>Travel slowly, observe closely and collect stories — not just photographs.</p>
+    <a class="read-link" href="blog.html">Read the latest story →</a><br>
+<a class="read-link" href="menu-blog.html">Explore Other Stories →</a>
+  </aside>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <div class="kicker">Welcome to PathaKatha</div>
+      <h2>Travel is more than a place on a map.</h2>
+      <p>It is a collection of moments, people, landscapes and stories that stay with us long after we return home.</p>
+    </div>
+    <div class="intro-grid">
+      <article class="card">
+        <h2>Stories that take you there</h2>
+        <p>PathaKatha is a travel blogging space created for curious travellers who want more than a list of attractions. Discover destination guides, cultural experiences, heritage journeys, nature escapes and practical travel inspiration.</p>
+        <a class="read-link" href="about.html">Discover PathaKatha →</a>
+      </article>
+      <article class="card quote-card">
+        <blockquote>“The road teaches what the destination cannot.”<cite>— PathaKatha</cite></blockquote>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#f3eee5">
+  <div class="container">
+    <div class="section-title">
+      <div class="kicker">From the Journal</div>
+      <h2>Featured travel stories</h2>
+      <p>Start with a story and let your next journey take shape.</p>
+    </div>
+    <div class="blog-grid">
+      <article class="blog-card"><div class="blog-thumb">Mountains & Memories</div><div class="blog-body"><div class="blog-meta">Nature</div><h3>Finding silence in the mountains</h3><p>A visual journey through landscapes where the sky feels a little closer.</p><a class="read-link" href="blog.html">Read story →</a></div></article>
+      <article class="blog-card"><div class="blog-thumb">Heritage Trails</div><div class="blog-body"><div class="blog-meta">Culture</div><h3>Where history meets the road</h3><p>Explore India's monuments, architecture and living traditions through a traveller's eyes.</p><a class="read-link" href="blog.html">Read story →</a></div></article>
+      <article class="blog-card"><div class="blog-thumb">Sea & Sun</div><div class="blog-body"><div class="blog-meta">Coastal</div><h3>Following the coastline</h3><p>Beaches, fishing villages, local food and the rhythm of life beside the sea.</p><a class="read-link" href="blog.html">Read story →</a></div></article>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">PathaKatha</div>
+        <p class="footer-text">Stories from roads, rivers, mountains, cities and coastlines — inspiring you to discover places with curiosity and heart.</p>
+      </div>
+      <div>
+        <div class="footer-title">Our Mission</div>
+        <p class="footer-text">To share useful, authentic and inspiring travel stories that help readers plan meaningful journeys and experience India and the world beyond the ordinary.</p>
+      </div>
+      <div>
+        <div class="footer-title">Let's Connect</div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+          <a href="#" aria-label="WhatsApp Channel">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 PathaKatha. All rights reserved.</div>
+  </div>
+</footer>
+<script>
+function toggleMenu(){
+  const nav=document.getElementById('navLinks');
+  const btn=document.querySelector('.menu-toggle');
+  nav.classList.toggle('show');
+  btn.setAttribute('aria-expanded', nav.classList.contains('show'));
+}
+</script>
+</body>
+</html>

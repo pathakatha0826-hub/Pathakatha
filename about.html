@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About PathaKatha</title>
+<meta name="description" content="Learn about PathaKatha, a travel blog focused on destination stories, Indian culture, heritage and meaningful journeys.">
+<meta name="keywords" content="travel blog, PathaKatha, India travel, travel stories, Indian destinations, travel guide, tourism, heritage, mountains, beaches, culture">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/about-yatrakatha.html">
+<link rel="icon" type="image/jpeg" href="Icon.jpeg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="PathaKatha Home">
+      <img src="Icon.jpeg" alt="PathaKatha travel blog logo">
+      <span class="brand-name">Patha<span>Katha</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" onclick="toggleMenu()">☰</button>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="navLinks">
+<li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu-blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container"><h1>About PathaKatha</h1><p>A travel blog where destinations become stories and journeys become memories.</p></div></section>
+<section class="section"><div class="container content">
+  <div class="section-title" style="text-align:left;margin:0 0 35px"><div class="kicker">Our Story</div><h2>Every Journey has a Story</h2><p>PathaKatha is a destination for travel stories, practical guides, cultural insights and visual inspiration. The idea behind PathaKatha is simple: a journey should not be measured only by the places you visit but by what you notice, learn, experience and remember.<br>
+
+Every destination has a story waiting to be discovered. Before beginning a journey, it is always meaningful to know a little about the place—its history, culture, people, traditions, landmarks, food, landscapes and the stories that have shaped it. PathaKatha aims to bring these stories to you even before you set foot on the road.<br>
+
+Through our travel stories and destination guides, we want to help you understand a place beyond its popular attractions. From ancient monuments and forgotten histories to rivers, mountains, villages, cities, local traditions and hidden gems, PathaKatha explores the many layers that make a destination unique.<br>
+
+And you don't always need to travel to experience a place. Through carefully told stories, photographs, interesting facts, and immersive narratives, PathaKatha allows you to explore India from wherever you are. Perhaps a story about a distant village will inspire you to visit someday, or perhaps it will simply let you discover a corner of India you had never known existed.<br>
+
+Our goal is to make travel more meaningful—to inspire curiosity before the journey, enrich the experience during it and preserve the memories long after it ends.
+</p>
+  <h2>What you will find here</h2>
+  <ul><li>Destination guides and travel itineraries</li><li>Indian heritage, culture and architecture</li><li>Mountains, rivers, beaches and nature escapes</li><li>Travel experiences, tips and planning ideas</li><li>Stories that encourage responsible and meaningful travel</li></ul>
+  <p>Whether you are planning your next holiday or simply dreaming about a new road, PathaKatha aims to give you a story worth following.</p>
+</div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">PathaKatha</div>
+        <p class="footer-text">Stories from roads, rivers, mountains, cities and coastlines — inspiring you to discover places with curiosity and heart.</p>
+      </div>
+      <div>
+        <div class="footer-title">Our Mission</div>
+        <p class="footer-text">To share useful, authentic and inspiring travel stories that help readers plan meaningful journeys and experience India and the world beyond the ordinary.</p>
+      </div>
+      <div>
+        <div class="footer-title">Let's Connect</div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+          <a href="#" aria-label="WhatsApp Channel">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 PathaKatha. All rights reserved.</div>
+  </div>
+</footer>
+<script>
+function toggleMenu(){
+  const nav=document.getElementById('navLinks');
+  const btn=document.querySelector('.menu-toggle');
+  nav.classList.toggle('show');
+  btn.setAttribute('aria-expanded', nav.classList.contains('show'));
+}
+</script>
+</body>
+</html>
