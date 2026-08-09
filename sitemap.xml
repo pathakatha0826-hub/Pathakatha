@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/index.html</loc></url>
-  <url><loc>https://example.com/about.html</loc></url>
-  <url><loc>https://example.com/blog.html</loc></url>
-  <url><loc>https://example.com/contact.html</loc></url>
-  <url><loc>https://example.com/privacy.html</loc></url>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://pathakatha0826-hub.github.io/Pathakatha/</loc>
+  </url>
+
+  <url>
+    <loc>https://pathakatha0826-hub.github.io/Pathakatha/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://pathakatha0826-hub.github.io/Pathakatha/blog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://pathakatha0826-hub.github.io/Pathakatha/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://pathakatha0826-hub.github.io/Pathakatha/privacy.html</loc>
+  </url>
+
 </urlset>
